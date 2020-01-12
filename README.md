@@ -1,4 +1,4 @@
-https://github.com/dima-kulikov/Startup-landing2/build/index.html
+https://dima-kulikov.github.io/Startup-landing2/build/index.html
 Сайт лендинг (Gulp/sass)
 
 -----------------------------------------------------------------------------------
