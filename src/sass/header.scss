@@ -18,7 +18,8 @@
 .head-menu{
    
     max-width: 1140px;
-    margin:40px auto;
+    margin: 0 auto;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
   .head-menu__list {
@@ -45,14 +46,13 @@
     display: block;
     width: 600px;
     height: 300px;
-    margin: 220px auto;
+    margin: 175px auto;
 
 &__alt{   
     font-size: 48px;
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    line-height: 0.5;
     text-align: center;   
     } 
     
@@ -61,7 +61,6 @@
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    line-height: 0.5;
     text-align: center;  
    
     }
