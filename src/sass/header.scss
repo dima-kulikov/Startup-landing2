@@ -3,7 +3,8 @@
     height: 770px;
     background-image: url(../images/bg-header.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .logo-header {
@@ -44,7 +45,7 @@
 
 .caption{
     display: block;
-    width: 600px;
+    max-width: 600px;
     height: 300px;
     margin: 175px auto;
 
