@@ -1,0 +1,14 @@
+.works-menu{
+    display: flex;
+    justify-content: space-around;
+background-color: red;
+ &__list{
+    display: flex;
+    list-style-type: none;
+}
+ a{
+        text-decoration: none;
+        font-size: 50px;  
+    }
+
+}

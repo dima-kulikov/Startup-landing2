@@ -1,0 +1,116 @@
+.box-color{
+    background-color: #f8f8f8;
+    width: 100%;
+    padding-top: 100px;
+}
+
+
+
+.block-team{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 75px auto 100px;
+    font-family: 'Rubik', sans-serif;}
+  .overlay {
+      content: '';
+      position: relative;
+  }
+  
+  .block-team__card{
+    width: 260px;
+    font-size: 14px;
+    list-style-type: none;
+      position: relative;
+  }
+   .block-team__card img{
+      display: block;  
+      margin: 0 auto; 
+     width: 260px;  
+  } 
+  .block-team__card__title{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(85, 85, 85);
+    text-transform: uppercase;
+  }
+  .block-team__card__text{
+   text-align: center;
+   font-size: 13px;
+    font-family: "RobotoSlab";
+    color: rgb(85, 85, 85); 
+  }
+  .overlay__icon{
+    display: flex;
+      list-style: none;
+      position: absolute;
+      padding: 0px;
+    justify-content: space-around;
+      min-width: 180px;
+      left: 50%;
+      top: 80%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+  }
+  .overlay__icon__a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+    //   background-color: #fce38a;
+      opacity: 0;
+      transition: opacity 0.7s linear;
+  }
+  .overlay:hover .overlay__icon__a{
+    opacity: 1;
+  }
+  .overlay__icon__a:hover{
+    background-color:#c0301c;
+  
+  }
+
+  .overlay__icon svg{
+    display: block;
+    width: 25px;
+    height: 25px;
+    fill:#c0301c;
+}
+.overlay__icon__a:hover svg{
+    fill:#ffffff;
+}
+  
+  
+  
+  
+  .overlay:hover::before{
+   content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-color: #a0a0a0;
+    opacity: 0.5;
+  }
+  
+  .block-team__card:hover{
+    box-shadow: 0 5px 20px #c0301c, 0 8px 8px #c0301c;
+}
+    
+
+
+.two-block{
+    display: flex;
+    justify-content: space-around;
+
+
+    &__text{
+        max-width: 555px;
+        font-size: 14px;
+        font-family: "RobotoSlab";
+        color: rgb(85, 85, 85);
+    }
+}
