@@ -1,7 +1,7 @@
 .box-color{
     background-color: #f8f8f8;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 
@@ -12,7 +12,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 75px auto 100px;
-    font-family: 'Rubik', sans-serif;}
+    font-family: 'Rubik', sans-serif;
+  }
   .overlay {
       content: '';
       position: relative;
@@ -23,6 +24,12 @@
     font-size: 14px;
     list-style-type: none;
       position: relative;
+      margin: 5px;
+
+      @media (max-width: 1078px){
+        margin-bottom: 50px;
+     }
+
   }
    .block-team__card img{
       display: block;  
@@ -70,6 +77,7 @@
   }
   .overlay__icon__a:hover{
     background-color:#c0301c;
+    border-radius: 2px;
   
   }
 
@@ -112,5 +120,9 @@
         font-size: 14px;
         font-family: "RobotoSlab";
         color: rgb(85, 85, 85);
+        padding: 10px;
     }
-}
+    @media (max-width: 425px){
+         flex-wrap: wrap;
+      }
+    }
