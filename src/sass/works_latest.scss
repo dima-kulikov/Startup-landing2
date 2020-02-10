@@ -13,9 +13,78 @@
         text-decoration: none;
         font-size: 16px;
         color: black;
+        font-family: "RobotoSlab";
           
     }
 a:hover{
-    color:#c0301c;
+    color: rgb(192, 48, 28);
 }
 }
+
+.block-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    outline: 1px solid green;
+    max-width: 1140px;
+    margin: auto;
+    
+
+&__work-block{
+    width: 360px;
+    height: 320px;
+    margin-bottom: 30px;
+}
+// &__work-block__overlay {
+//     content: '';
+//     position: relative;
+// }
+
+}
+// .block-cards__work-block__overlay:hover::before{
+  
+//     content: '';
+//     display: block;
+//     height: 100%;
+//     // position: absolute;
+//     // width: 100%;
+//    background-image: linear-gradient( 90deg, rgba(192, 48, 28, 0.8) 40%, rgba(243,129,129, 0.6) 100%);
+//   }
+
+  .block-cards__work-block:hover::before{
+  
+    content: '';
+    display: block;
+    height: 100%;
+    // position: absolute;
+    // width: 100%;
+   background-image: linear-gradient( 90deg, rgba(192, 48, 28, 0.8) 40%, rgba(243,129,129, 0.6) 100%);
+  }
+.card-1{
+    background-image: url(../images/work_back/img-1.png);
+}
+.card-2{
+    background-image: url(../images/work_back/img-2.png);
+}
+.card-3{
+    background-image: url(../images/work_back/img-3.png);
+}
+.card-4{
+    background-image: url(../images/work_back/img-4.png);
+}
+.card-5{
+    background-image: url(../images/work_back/img-5.png);
+}
+.card-6{
+    background-image: url(../images/work_back/img-6.png);
+}
+.card-7{
+    background-image: url(../images/work_back/img-7.png);
+}
+.card-8{
+    background-image: url(../images/work_back/img-8.png);
+}
+.card-9{
+    background-image: url(../images/work_back/img-9.png);
+}
+
