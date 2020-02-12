@@ -96,8 +96,6 @@ a:hover{
 }
 
 .overlay-box{
-    // display: block;
-    // outline: 1px solid yellow;
     width: 140px;
     height: 120px;
 
@@ -151,12 +149,3 @@ a:hover{
     background-image: url(../images/icon/fa-angle-left.png);
 }
 }
-
-// .overlay-box__btn::after{
-//     content: "";
-//     display: inline-block;
-//     width: 6px;
-//     height: 10px;
-//     margin-left: 10px;
-//     background-image: url(../images/icon/fa-angle-left.png);
-// }
