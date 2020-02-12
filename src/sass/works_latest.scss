@@ -52,7 +52,9 @@ a:hover{
    opacity: 0;
   }
  .block-cards__work-block:hover .block-cards__work-block__overlay{
-     
+        display: flex;
+        justify-content: center;
+        align-items: center;
         opacity: 1;
     }
  
@@ -93,3 +95,68 @@ a:hover{
     background-image: url(../images/work_back/img-9.png);
 }
 
+.overlay-box{
+    // display: block;
+    // outline: 1px solid yellow;
+    width: 140px;
+    height: 120px;
+
+
+
+&__alt{
+    display: block;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  &__title{
+    display: block;
+        font-size: 12px;
+        font-family: "RobotoSlab";
+        color: rgb(255, 255, 255);
+        line-height: 2;
+        text-align: center;
+        margin-bottom: 20px;
+  }
+  &__btn{
+      display: block;
+      border: none;
+      margin: 0px auto;
+    padding: 10px;
+    color: inherit;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 100px;
+    height: 38px;
+    font-size: 14px;
+    font-family: "RobotoSlab";
+    color: rgb(192, 48, 28);
+    text-transform: uppercase;
+  }
+  &__btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 6px;
+    color: rgb(255, 255, 255);
+  }
+
+  &__btn::after{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 10px;
+    margin-left: 10px;
+    background-image: url(../images/icon/fa-angle-left.png);
+}
+}
+
+// .overlay-box__btn::after{
+//     content: "";
+//     display: inline-block;
+//     width: 6px;
+//     height: 10px;
+//     margin-left: 10px;
+//     background-image: url(../images/icon/fa-angle-left.png);
+// }
