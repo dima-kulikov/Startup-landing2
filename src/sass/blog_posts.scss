@@ -1,0 +1,77 @@
+.blog-card{
+    display: flex;
+    outline: 2px solid red;
+    max-width: 1140px;
+    height: 330px;
+    margin-bottom: 76px;
+
+&__img{
+    display: inline-block;
+    outline: 2px solid fuchsia;
+    max-width: 460px;
+    height: 322px;
+}    
+&__body{
+    outline: 2px solid darkcyan;
+    display: inline-block;
+    width: 650px;
+    height: 260px;
+    // margin-bottom: 62px;
+    margin-left: 40px;
+}
+&__body__data{
+    display: inline-block;
+    border: 2px solid rgb(85, 85, 85);
+    width: 72px;
+    height: 72px;
+    font-size: 24px;
+    color: rgb(119, 119, 119);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+&__body__title{
+    display: inline-block;
+    // width: 100%;
+
+}
+&__body__title__h2{
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(192, 48, 28);
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+}
+&__body__title__avtor{
+    font-size: 13px;
+    font-family: "RobotoSlab";
+    color: rgb(119, 119, 119);
+    line-height: 1.846;
+    // text-align: center;
+    font-style: italic;
+      
+}
+
+
+  &__body__title__text{
+    font-size: 14px;
+    font-family: "RobotoSlab";
+    
+    line-height: 1.714;
+    text-align: left;
+  }
+
+&__body__title__href{
+    font-size: 13px;
+    font-family: "RobotoSlab";
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.846; 
+    cursor: pointer;
+}
+&__body__title__href:hover{
+    color: rgb(192, 48, 28);
+}  
+}
