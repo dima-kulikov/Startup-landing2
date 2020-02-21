@@ -1,0 +1,49 @@
+.partner{
+display: block;
+max-width: 900px;
+margin: 100px auto;
+
+&__logo{
+    display: flex;
+    // flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+&__logo__block{
+    width: 160px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.partner-1{
+    background-image: url(../images/partner/part-1.png);}
+.partner-2{
+    background-image: url(../images/partner/part-2.png);}
+.partner-3{
+    background-image: url(../images/partner/part-3.png);}
+.partner-4{
+    background-image: url(../images/partner/part-4.png);}    
+.partner-5{
+    background-image: url(../images/partner/part-5.png);
+} 
+&__text{
+    max-width: 760px;
+    margin: 80px auto 40px;
+    font-size: 18px;
+    font-family: "RobotoSlab";
+    color: rgb(85, 85, 85);
+    line-height: 1.667;
+    text-align: center;  
+    font-style: italic;    
+}
+&__text-second{
+    width: 260px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: "RobotoSlab";
+    color: rgb(85, 85, 85);
+    line-height: 1.667;
+    text-align: center;   
+}
+}
+

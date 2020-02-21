@@ -1,0 +1,22 @@
+.send-form{
+    outline: 2px solid gold;
+    width: 730px;
+    height: 300px;
+
+.input-block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+&__line{
+width: 350px;
+height: 45px;
+margin-bottom: 22px;
+}
+}
+.textarea-class{
+    width: 100%;
+    height: 100px;
+}
+}

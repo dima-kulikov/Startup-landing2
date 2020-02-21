@@ -1,26 +1,25 @@
 .blog-card{
     display: flex;
-    outline: 2px solid red;
     max-width: 1140px;
-    height: 330px;
     margin-bottom: 76px;
-
+@media screen and (max-width: 920px){
+        flex-wrap: wrap;
+        justify-content: center;
+}
 &__img{
-    display: inline-block;
-    outline: 2px solid fuchsia;
     max-width: 460px;
-    height: 322px;
 }    
 &__body{
-    outline: 2px solid darkcyan;
-    display: inline-block;
-    width: 650px;
-    height: 260px;
-    // margin-bottom: 62px;
+    max-width: 600px;
     margin-left: 40px;
+@media screen and (max-width: 920px){
+        width: 800px;
+        margin: 20px;
+}
 }
 &__body__data{
     display: inline-block;
+    float: left;
     border: 2px solid rgb(85, 85, 85);
     width: 72px;
     height: 72px;
@@ -29,11 +28,19 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+@media screen and (max-width: 500px){
+        float: none;
+        display: block;
+        margin: 0 auto;
+}
 }
 &__body__title{
     display: inline-block;
-    // width: 100%;
-
+    margin-left: 20px;
+@media screen and (max-width: 500px){
+    display: block;
+    margin: 0px auto;
+}
 }
 &__body__title__h2{
     font-size: 16px;
@@ -48,20 +55,17 @@
     font-family: "RobotoSlab";
     color: rgb(119, 119, 119);
     line-height: 1.846;
-    // text-align: center;
     font-style: italic;
-      
+@media screen and (max-width: 500px){
+        text-align: center;
 }
-
-
-  &__body__title__text{
+}
+&__body__title__text{
     font-size: 14px;
     font-family: "RobotoSlab";
-    
     line-height: 1.714;
     text-align: left;
-  }
-
+}
 &__body__title__href{
     font-size: 13px;
     font-family: "RobotoSlab";
