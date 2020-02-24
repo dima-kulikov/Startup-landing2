@@ -14,9 +14,42 @@ width: 350px;
 height: 45px;
 margin-bottom: 22px;
 }
+&__line:focus {
+    background: #ffe; /* Цвет фона */
+    border: 1px solid rgb(192, 48, 28); /* Параметры рамки */
 }
+
+}
+&__btn{
+    display: block;
+    width: 180px;
+    height: 50px;
+    border:1px solid rgb(85, 85, 85);
+    border-radius: 2px;
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+    text-align: center;
+    line-height: 1.5;
+    background-color: transparent;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  &__btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(192, 48, 28);
+  }
 .textarea-class{
     width: 100%;
     height: 100px;
 }
+
+.font {
+    font-size: 12px;
+    font-family: "RobotoSlab";
+    color: rgb(85, 85, 85);
+    text-transform: uppercase;
+    line-height: 1.667;
+  }
 }
+  
