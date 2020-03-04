@@ -1,66 +1,112 @@
+.box-contact{
+  max-width: 1140px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+
+@media screen and (max-width: 768px){
+  flex-wrap: wrap;
+  display: flex;
+}
+}
 .contact{
-  outline: 1px solid fuchsia;
+  // outline: 1px solid fuchsia;
   width: 365px;
-  height: 300px;
+  // height: 300px;
+
+  @media screen and (max-width: 768px){
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+   
+    flex-wrap: wrap;
+  }
 
 &__block {
-  outline: 1px solid blue;
-  height: 90px;
+  // height: 90px;
+  width: 200px;
 } 
+
 &__block__alt{
   font-size: 14px;
   font-family: "Montserrat";
   color: rgb(85, 85, 85);
   text-transform: uppercase;
   line-height: 2.143;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
 }
 &__block__alt::before{
   content: "";
   display: inline-block;
-  outline: 1px solid red;
+  // outline: 1px solid red;
   width: 25px;
   height: 25px;
-  background-image: url(../images/icon/contact-1.png);
   background-repeat: no-repeat;
-    background-position: center;
+  background-position: center; 
 }
+  
+
+.icon-address::before{
+  background-image: url(../images/icon/contact-1.png);
+} 
+.icon-mobile::before{
+  background-image: url(../images/icon/contact-2.png);
+} 
+.icon-mail::before{
+  background-image: url(../images/icon/contact-3.png);
+} 
 &__block__p{
     font-size: 12px;
     font-family: "RobotoSlab";
     color: rgb(85, 85, 85);
     line-height: 1.667;
     text-align: left;
+    margin-left: 25px;
+    font-weight: bold;
 }
 }
-
 
 
   // ФОРМА ЗАПОЛНЕНИЯ
 .send-form{
-    outline: 2px solid gold;
+    // outline: 2px solid gold;
     width: 730px;
     height: 300px;
+    @media screen and (max-width: 768px){
+      width: 330px;
+      margin: 0px auto;
+    }
+    @media screen and (max-width: 375px){
+      width: 280px;
+      margin: 0px auto;
+    }
 
 .input-block{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+   
 
 &__line{
 width: 350px;
 height: 45px;
 margin-bottom: 22px;
-}
+
+// @media screen and (max-width: 1100px){
+//   width: 100%;
+// }
+
 &__line:focus {
 outline:1px solid green;
+}
 }
 }
 
 
 &__btn{
-    display: block;
+    display: inline-block;
     width: 180px;
     height: 50px;
     border:1px solid rgb(85, 85, 85);
@@ -73,10 +119,27 @@ outline:1px solid green;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
+    @media screen and (max-width: 768px){
+      display: block;
+      margin: 0px auto;
+      margin-top: 20px;
+
+    }
+
   }
   &__btn:hover{
     color: rgb(255, 255, 255);
     background-color: rgb(192, 48, 28);
+  }
+  &__star{
+    display: inline-block;
+    text-align: center;
+    margin-left: 35px;
+    @media screen and (max-width: 768px){
+      margin-top: 20px;
+      display: block;
+      margin-left: 0px;
+    }
   }
 .textarea-class{
     width: 100%;
@@ -84,7 +147,8 @@ outline:1px solid green;
 
 &:focus{
   outline: 1px solid green;
-}    
+} 
+   
 }
 
 .font {
@@ -94,3 +158,5 @@ outline:1px solid green;
     text-transform: uppercase;
     line-height: 1.667;
   }
+
+}
