@@ -1,0 +1,91 @@
+#go-top {
+    display: inline-block;
+    // background-color: rgb(192, 48, 28);
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 30px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    transition: background-color .3s;
+    background: rgb(192, 48, 28)
+    url(/images/icon/icon-up.png) 
+    no-repeat 50% 50%;
+    
+
+    // background-image: url(/images/icon/icon-twitter.png);
+    // background-repeat: no-repeat;
+    // background-position: center;
+  }
+  #go-top:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #go-top:active {
+    background-color: #555;
+  }
+
+//   #go-top::after {
+//     content: "\f000";
+//     font-family: FontAwesome;
+//     font-weight: normal;
+//     font-style: normal;
+//     font-size: 2em;
+//     line-height: 46px;
+//     color: #fff;
+//     background-image: url(/images/icon/icon-twitter.png);
+//     background-repeat: no-repeat;
+//     background-position: center;
+//   }    
+
+
+// #go-top {
+//   position: fixed; 
+//   bottom: 25px; 
+//   right: 10px; 
+//   cursor:pointer; 
+//   display:none;
+//   width: 50px;
+//   height: 20px;
+//   background: #c0c0c0;
+// }
+ 
+// #go-top:hover {
+//   background: #333;
+// }
+
+
+// #button {
+//     display: inline-block;
+//     background-color: #FF9800;
+//     width: 50px;
+//     height: 50px;
+//     text-align: center;
+//     border-radius: 4px;
+//     margin: 30px;
+//     position: fixed;
+//     bottom: 30px;
+//     right: 30px;
+//     transition: background-color .3s;
+//     z-index: 1000;
+//   }
+//   #button:hover {
+//     cursor: pointer;
+//     background-color: #333;
+//   }
+//   #button:active {
+//     background-color: #555;
+//   }
+
+//   #button::after {
+//     content: "\f077";
+//     font-family: FontAwesome;
+//     font-weight: normal;
+//     font-style: normal;
+//     font-size: 2em;
+//     line-height: 50px;
+//     color: #fff;
+//   }

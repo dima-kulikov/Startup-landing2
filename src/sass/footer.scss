@@ -13,26 +13,45 @@
     }
     &__social{
         display: flex;
-        justify-content: center;
-        width: 300px;
+        justify-content: space-around;
+        width: 190px;
         outline: 1px solid green;
         margin: 0px auto;
        
-}
-&__social::after {
-    content: "";
-    display: block;
-    margin: 30px auto;
-    border-bottom: 2px solid white;
-    width: 50px;
 }
     &__social__block{
         display: inline-block;
         border: 2px solid wheat;
         width: 36px;
         height: 36px;
-        // border-radius: 50%;
+        border-radius: 50%;
+        background-image: url(../images/icon/icon-twitter.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+
+        
+    }
+
+
+.footer__text{
+    text-align: center;
+    font-size: 12px;
+    font-family: "RobotoSlab";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+
+      
+
+&::before {
+        content: "";
+        display: block;
+        margin: 30px auto;
+        border-bottom: 2px solid white;
+        width: 50px;
+    }    
 }
+
 }
 
 
