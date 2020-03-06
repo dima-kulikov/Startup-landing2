@@ -18,6 +18,10 @@
         font-weight: bold;
         line-height: 1.5;
         text-align: left;
+        @media screen and (max-width: 1200px) {
+            padding-left: 20px;
+
+        }    
       }
   .head-menu__list {
      

@@ -32,3 +32,12 @@ $(function () {
 //   e.preventDefault();
 //   $('html, body').animate({scrollTop:0}, '300');
 // });
+"use strict";
+
+(function ($) {
+  $(function () {
+    $('.menu__icon').on('click', function () {
+      $(this).closest('.menu').toggleClass('menu_state_open');
+    });
+  });
+})(jQuery);
