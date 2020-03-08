@@ -5,7 +5,7 @@
 
     &__box {
         max-width: 540px;
-        margin: 70px auto;
+        margin: 50px auto;
         padding-top: 60px;
     }
     &__social{
@@ -29,15 +29,12 @@
         
     }
 
-
 .footer__text{
     text-align: center;
     font-size: 12px;
     font-family: "RobotoSlab";
     color: rgb(255, 255, 255);
-    text-transform: uppercase;
-
-      
+    text-transform: uppercase;    
 
 &::before {
         content: "";
@@ -47,18 +44,4 @@
         width: 50px;
     }    
 }
-
 }
-
-
-
-
-
-
-// .text-box__first::after {
-//     content: "";
-//     display: block;
-//     margin: 30px auto;
-//     border-bottom: 2px solid #555555;
-//     width: 50px;
-// }
