@@ -71,16 +71,14 @@
 
   // ФОРМА ЗАПОЛНЕНИЯ
 .send-form{
-    // outline: 2px solid gold;
     width: 730px;
-    height: 300px;
     @media screen and (max-width: 768px){
       width: 330px;
-      margin: 0px auto;
+      margin: 15px auto;
     }
     @media screen and (max-width: 375px){
       width: 280px;
-      margin: 0px auto;
+      margin: 30px auto;
     }
 
 .input-block{
@@ -148,8 +146,8 @@ outline:1px solid green;
 &:focus{
   outline: 1px solid green;
 } 
-   
-}
+}  
+
 
 .font {
     font-size: 12px;

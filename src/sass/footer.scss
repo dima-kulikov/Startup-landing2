@@ -5,8 +5,7 @@
 
     &__box {
         max-width: 540px;
-        margin: 50px auto;
-        padding-top: 60px;
+        margin: 40px auto;
     }
     &__social{
         display: flex;
@@ -17,7 +16,7 @@
 }
     &__social__block{
         display: inline-block;
-        border: 2px solid wheat;
+        border: 2px solid white;
         width: 36px;
         height: 36px;
         border-radius: 50%;
