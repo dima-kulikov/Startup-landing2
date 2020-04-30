@@ -1,4 +1,4 @@
-<p>Сайт лендинг (Gulp/sass)</p>
+<p>Сайт лендинг (Gulp/sass/jquery)</p>
 https://dima-kulikov.github.io/Startup-landing2/build/index.html
 
 
